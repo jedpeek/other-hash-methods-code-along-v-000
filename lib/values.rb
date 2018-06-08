@@ -10,8 +10,5 @@ require 'pry'
 
 def get_the_values(groceries)
   values = []
-  groceries[keys].each do |k,v|
-    values << k[v]
-  end
-  values
+puts groceries[keys]
 end
